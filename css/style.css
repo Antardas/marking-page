@@ -1,4 +1,4 @@
-/* Default setting Change */
+                /* Default setting Change */
 
 body {
     font-family: 'Merriweather Sans', sans-serif;
@@ -20,9 +20,9 @@ a {
     width: 80%;
 
 }
-/* Start Headr Section */
+                /* Start Headr Section */
 
-/* Start Info Area Section */
+                /* Start Info Area Section */
 .header {
     background-image: url(../images/header-Bg-Shape.png);
     background-repeat: no-repeat;
@@ -63,9 +63,9 @@ a {
     border-radius: 20px;
     text-transform: uppercase;
 }
-/* End Info Area Section */
+                /* End Info Area Section */
 
-/* Start Image Area */
+                /* Start Image Area */
 .menu {
     display: flex;
 }
@@ -81,7 +81,40 @@ a {
     margin-top: 5%;
     display: block;
 }
-/* End Image Section */
-/* End Header Section */
+                /* End Image Section */
+                /* End Header Section */
+/* ================================================================================================= */
+                /* Start About Company Section */
 
-/* Start About Company Section */
+                /* start Image Section */
+.about {
+    background-image: url(../images/social-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: contain;
+}
+.analytic-image img{
+    width: 90%;
+    height: auto;
+}
+                /* End Image Section */
+
+                /* Start About Text */
+.about-text {
+    margin-top: 60px;
+    max-width: 45%;
+    padding-right: 5%;
+}
+.primary-paragraph {
+    color: #7E76F9;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.secondary-paragraph {
+    font-size: small;
+    color: #7A839E;
+    line-height: 2em;
+}
+.primary-heading {
+    font-size: 30px;
+}
